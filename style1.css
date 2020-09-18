@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+  
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    size: 60px;
+    color: rgb(245, 9, 154)
+}
+p{
+    color: dimgray;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+
+}
+.half-width img{
+    width: 100%;
+   display: flex;
+
+}
+#top-banner{
+    background-image: url(top-banner.png);
+     background-repeat: no-repeat;
+     
+  
+}
+.button{
+    text-decoration: none ;
+    padding: 20px,20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+    background-image: linear-gradient(45deg,pink,rgb(245,9,154));
+}
+#top-meddle-banner{
+    background-image: url(biography-bg.png);
+
+}
+section{
+    height: 600px; 
+    padding-bottom: 50px;
+}
+.latest-work{
+    display: flex;
+    padding-left: 10px;
+}
+#last-banner{
+    background-image: url(footer-bg.png);
+    text-align: center;
+}
+#ex{
+    text-align: center;
+}
+#ho{
+    size:small;
+}
+#link-button{
+    text-decoration: none ;
+    padding left: 60px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+    background-image: linear-gradient(45deg,pink,rgb(245,9,154));
+    margin-left: 300px;
+    margin-right: 300px;
+}
